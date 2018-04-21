@@ -1,3 +1,4 @@
+
 html {
 	position: relative;
 }
@@ -5,7 +6,7 @@ html, body {
 	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-color: #efefef;
-	background: #efefef;
+	background: #efefef url("../images/shattered.png");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,6 +25,7 @@ h1 {
 h2 {
 	font-size: 1.3em;
 }
+
 
 header {
 	width: 100%;
@@ -127,8 +129,8 @@ header .container {
 img.headshot {
 	float: left;
 	padding: 0 1em 1em 0;
-	width: 400px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 }
 
 
@@ -164,7 +166,7 @@ img {
 
 
 .contact {
-	width: 960px;
+	width: 540px;
 }
 
 .contact label {
@@ -246,10 +248,7 @@ img {
 	width: 60px;
 	height: auto;
 }
-.responsive {
-    width: 100%;
-    height: auto;
-}
+
 
 footer {
 	position: absolute;
